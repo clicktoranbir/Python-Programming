@@ -1,0 +1,5 @@
+tup = (23,45,67,86,43)
+print(tup) #Tuples are immutable in nature
+
+s={22,44,56,77,88,22,56,89}
+print(s)
