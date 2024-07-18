@@ -1,2 +1,10 @@
 print("This is python This is a programming language")
 print("This is python \n This is a programming language") #\n is an escape sequence character
+print("Hey",6,7,sep="~",end="009\n")
+print ('ranbir')
+print ("ranbir's laptop")
+print ('ranbir\'s laptop')
+print ('ranbir'+' singh')
+print ( 10*'singh')
+print ('c:\docs\naveen')
+print (r'c:\docs\naveen') #r is raw string
