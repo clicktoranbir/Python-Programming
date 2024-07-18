@@ -1,0 +1,10 @@
+x=int(input("First Number "))
+y=int(input("Second Number "))
+z=x+y
+print(z)
+
+ch=input("Give Character")
+print(ch[0])
+
+ch=input("Give Character")[0]
+print(ch)
