@@ -1,0 +1,22 @@
+data = {1:'ranbir',2:'singh',4:'IT'}
+print(data)
+print(data[2])
+print(data.get(1))
+print(data.get(3,'not found'))
+print(data.get(1,'not found'))
+
+keys = ['ranbir', 'ranvir', 'rambir']
+values = ['C++','JAVA','python']
+data = dict(zip(keys,values))
+print(data)
+print(data['ranbir'])
+data['monica'] = 'CS'
+print(data)
+del data['rambir']
+print(data)
+
+prog = {'language':'english', 'nlanguage':'punjabi','programming':['java','python'], 'science':{'physics':'electical', 'chemistry':'organic'}}
+print(prog)
+print(prog['nlanguage'])
+print(prog['programming'][1])
+print(prog['science']['physics'])
