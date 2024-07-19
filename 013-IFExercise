@@ -1,0 +1,21 @@
+if True:
+    print("I am right")
+
+if False:
+    print("I am nor right")
+
+x=8
+r=x%2
+if r==0:
+    print("Even")
+else:
+    print("Odd")
+
+x=8
+r=x%2
+if r==0:
+    print("Even")
+    if x>5:
+        print("Great")    
+else:
+    print("Odd")
