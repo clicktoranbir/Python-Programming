@@ -19,3 +19,23 @@
   
 for k in range(1, 12, 3):
   print(k)
+x='Ranbir'
+for i in x:
+    print(i)
+
+for i in [2,5,'Bob']:
+    print(i)
+
+for i in range(11,18,2):
+    print(i)
+
+for i in range(1,20):
+    if i%5!=0:
+        print(i)
+
+
+import math
+for i in range(1,500):
+    a=math.sqrt(i)
+    if i%a==0:
+        print(i, end=' ')
