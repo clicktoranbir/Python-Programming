@@ -1,0 +1,34 @@
+# for i in range(12):
+#   if(i == 10):
+#     print("Skip the iteration")
+#     continue
+#   print("5 X", i, "=", 5 * i)
+  
+i = 0
+while True:
+  print(i)
+  i = i + 1
+  if(i%100 == 0):
+    break
+
+av=5
+x=int(input('How many chips you want'))
+i=1
+while i<=x:
+    if i>av:
+        print('out of stock')
+        break
+    print('Chips')
+    i+=1
+print('bye')
+
+for i in range(1,101):
+    if i%3==0 or i%5==0:
+        continue
+    print(i)
+
+for i in range(1,101):
+    if i%2!=0:
+        pass
+    else:
+        print(i)
